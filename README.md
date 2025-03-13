@@ -35,13 +35,13 @@ Realização de testes unitarios, integrados e automatizados.
 
 # Requisitos do projeto
 # Requisitos funcionais
-RF1: Login com o Microsoft Authentication.
-RF2: UI intuitiva.
+. RF1: Login com o Microsoft Authentication.
+. RF2: UI intuitiva.
   = UI simples e eficiente para que o usuario possa estar utilizando.
-RF3: Modelo de Ai para ler, interpretar e fornecer informaçôes inseridas.
-RF4: Armazenamento das informações no ElasticSearch.
-RF5: Armazenamento temporario de informações no redis.
-RF6: Logs e avalição de metricas com o Kibana.
+. RF3: Modelo de Ai para ler, interpretar e fornecer informaçôes inseridas.
+. RF4: Armazenamento das informações no ElasticSearch.
+. RF5: Armazenamento temporario de informações no redis.
+. RF6: Logs e avalição de metricas com o Kibana.
 
 # Requisitos não funcionais
 RNF1: Hospedagem na WEB.
