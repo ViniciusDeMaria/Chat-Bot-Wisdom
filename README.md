@@ -35,22 +35,22 @@ Realização de testes unitarios, integrados e automatizados.
 
 # Requisitos do projeto
 # Requisitos funcionais
-. RF1: Login com o Microsoft Authentication.
-. RF2: UI intuitiva.
+* RF1: Login com o Microsoft Authentication.
+* RF2: UI intuitiva.
   = UI simples e eficiente para que o usuario possa estar utilizando.
-. RF3: Modelo de Ai para ler, interpretar e fornecer informaçôes inseridas.
-. RF4: Armazenamento das informações no ElasticSearch.
-. RF5: Armazenamento temporario de informações no redis.
-. RF6: Logs e avalição de metricas com o Kibana.
+* RF3: Modelo de Ai para ler, interpretar e fornecer informaçôes inseridas.
+* RF4: Armazenamento das informações no ElasticSearch.
+* RF5: Armazenamento temporario de informações no redis.
+* RF6: Logs e avalição de metricas com o Kibana.
 
 # Requisitos não funcionais
-RNF1: Hospedagem na WEB.
-RNF2: Necessario o uso ElasticSearch para armazenamento dos historicos e embeddings do modelo.
-RNF3: Precisará está conectado na internet para poder acessar o sitema.
-RNF4: Será contemplado apenas para versão web.
-RNF5: Necesario a configuração do Microsoft Authentication para liberação das apis.
-RNF5: Uso do redis para armazenamento temporario de informações.
-RNF6: Uso do Kibana para geração de logs e avalição de metricas do sistema.
+* RNF1: Hospedagem na WEB.
+* RNF2: Necessario o uso ElasticSearch para armazenamento dos historicos e embeddings do modelo.
+* RNF3: Precisará está conectado na internet para poder acessar o sitema.
+* RNF4: Será contemplado apenas para versão web.
+* RNF5: Necesario a configuração do Microsoft Authentication para liberação das apis.
+* RNF5: Uso do redis para armazenamento temporario de informações.
+* RNF6: Uso do Kibana para geração de logs e avalição de metricas do sistema.
 
 # Metodologia de Organização das tarefas
 Nesse projeto será utilizado o Trello como quardro visual das tarefas a serem realizadas tendo o uso da metodologia de scrum para criação do quadro, assim definindo as tarefas a serem entregues a cada sprint.
