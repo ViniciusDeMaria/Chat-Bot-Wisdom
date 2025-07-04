@@ -2,7 +2,7 @@
 Hoje as Equipes externas de suporte, vendas e projetos utilizando a base de conhecimento do PCF-Facotory - Help como apoio para configuração do sistema. Essa base de conhecimento de documentação e muito estensa e não muito intuitiva no seu fluxo de pesquisa.
 
 # Problema
-Hoje essa equipes acabam solicitando apoio a equipe de pesquisa e desvolvimento (P&D) para resolução de problemas e dúvidas que estão contidas na base de conhecimento do PCF-Facotory - Help.
+Hoje essa equipes acabam solicitando apoio a equipe de pesquisa e desvolvimento (P&D) para resolução de problemas e dúvidas que estão contidas na base de conhecimento do PCF-Factory - Help.
 
 # Objetivo
 Criação de um chat bot inteligente capaz de ler, interpretar e fornecer informaçôes pesquisando na documentação do PCF-Factory - Help.
