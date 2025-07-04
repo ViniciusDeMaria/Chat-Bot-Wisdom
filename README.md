@@ -1,4 +1,3 @@
-@ -1,88 +1,59 @@
 # Contexto
 Hoje as Equipes externas de suporte, vendas e projetos utilizando a base de conhecimento do PCF-Facotory - Help como apoio para configuração do sistema. Essa base de conhecimento de documentação e muito estensa e não muito intuitiva no seu fluxo de pesquisa.
 
