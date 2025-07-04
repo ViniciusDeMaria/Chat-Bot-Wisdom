@@ -1,0 +1,21 @@
+<div class="container-chat" #scrollContainer>
+<ng-container *ngFor="let chat of chatHistory" class="chart-area">
+  <div class="chart-bubble-container row mx-0" [ngClass]="{'sender':chat.from === 'user', '': chat.from === 'bot'}">
+    <div class="chat-bubble row mx-0" [ngClass]="{'user':chat.from === 'user', 'bot': chat.from === 'bot', 'loading': chat.loading}">
+      <app-skeleton *ngIf="chat.from === 'bot' && chat.loading">
+      </app-skeleton>
+      <div class="icon-chat-bot" *ngIf="chat.from === 'bot' && !chat.loading">
+        <img class='icon-wisdom' [src]="wisdomImg">
+      </div>
+      <label class="responses col mx-0" [innerHTML]="chat.message | markdown"></label>
+      <div class="icon-chat-user" *ngIf="chat.from === 'user'">
+        <fa-icon [icon]="faUser" *ngIf="chat.from === 'user'"></fa-icon>
+      </div>
+      <div *ngIf="chat.from === 'bot' && !chat.loading">
+        <hr>
+        <fa-icon class="icons " [icon]="faCopie" [cdkCopyToClipboard]="chat.message" (click)="copyText()"></fa-icon>
+      </div>
+    </div>
+  </div>
+</ng-container>
+</div>
