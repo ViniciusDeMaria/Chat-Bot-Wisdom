@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg nav-header">
+  <div class="container-fluid">
+    <div class="d-flex">
+      <img class='icon-wisdom' [src]="wisdomImg">
+      <a class="navbar-brand px-1">wisdom</a>
+    </div>
+    <div>
+      <button type="button" class="new-chat btn btn-primary" (click)="cleanHistory()"> {{ 'Novo chat'}}
+        <fa-icon [icon]="messageIcon" size="lg"></fa-icon>
+      </button>
+      <button type="button" class="logout btn btn-primary"
+      (mouseenter)="openVersion()"
+      (click)="openVersion()">
+        <fa-icon [icon]="iconInfo" size="lg"></fa-icon>
+      </button>
+      <div (mouseleave)="closeVersion()" class="dropdown-custom" *ngIf="getOpen()">
+        <label class="mt-2 title-info">Manuais</label>
+        <div class="d-flex row mx-0">
+          <a class="col-12" [href]="pcfactorylManual" target="_blank">PC-Factory</a>
+          <a class="col-12" [href]="chatbotManual" target="_blank">Chatbot</a>
+        </div>
+        <label class="mt-2 title-info">Versão</label>
+        <div class="d-flex row mx-0">
+          <label class="col-6 pl-0 pr-1 label-info">{{version}}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
